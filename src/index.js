@@ -12,42 +12,36 @@ import "./App.css";
 
 const theme = createTheme({
   palette: {
-    mode: 'light',
+    mode: 'dark',
     primary: {
-      main: '#ff9100',
-      light: '#ffab40',
-      dark: '#f57c00',
-      contrastText: '#7b19ff',
+      main: '#ff3b00',
+      contrastText: '#001df3',
     },
     secondary: {
-      main: '#7b19ff',
-      light: '#ba8aff',
-      dark: '#6620c5',
-    },
-    text: {
-      primary: '#757575',
-      secondary: '#9e9e9e',
-      hint: '#ffb74d',
-      disabled: '#bdbdbd',
+      main: '#283593',
+      contrastText: '#03a9f4',
     },
     error: {
-      main: '#d50000',
-      contrastText: '#ffffff',
-    },
-    background: {
-      default: '#a4a4a4',
+      main: '#43a047',
+      contrastText: '#f30606',
     },
     warning: {
-      main: '#ffc80d',
+      main: '#ce93d8',
+    },
+    background: {
+      default: '#039be5',
+      paper: '#263238',
     },
     info: {
-      main: '#0073b3',
+      main: '#c6ff00',
     },
-    success: {
-      main: '#0ebd3a',
+    text: {
+      primary: '#4e342e',
+      secondary: '#ffc400',
+      disabled: '#aeea00',
+      hint: '#5500ff',
     },
-    divider: '#5109b3',
-  }
+  },
 });
 
 const router = createBrowserRouter([
