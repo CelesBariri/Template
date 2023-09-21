@@ -12,34 +12,41 @@ import "./App.css";
 
 const theme = createTheme({
   palette: {
-    mode: 'dark',
+    mode: 'light',
     primary: {
-      main: '#ff3b00',
-      contrastText: '#001df3',
+      main: '#2fc6ff',
+      contrastText: '#ffffff',
+      light: '#1a89d8',
+      dark: '#006977',
     },
     secondary: {
-      main: '#283593',
-      contrastText: '#03a9f4',
+      main: '#0277bd',
+      contrastText: '#ffffff',
+      light: '#5eb9b9',
     },
     error: {
-      main: '#43a047',
-      contrastText: '#f30606',
+      main: '#b71c1c',
+      contrastText: '#eeeeee',
     },
     warning: {
-      main: '#ce93d8',
+      main: '#ffd600',
+      contrastText: 'rgba(0,0,0,0.87)',
     },
     background: {
-      default: '#039be5',
-      paper: '#263238',
+      default: '#efffff',
+      paper: '#8ae8fb',
     },
     info: {
-      main: '#c6ff00',
+      main: '#ff46d3',
     },
     text: {
-      primary: '#4e342e',
-      secondary: '#ffc400',
-      disabled: '#aeea00',
-      hint: '#5500ff',
+      primary: '#000000',
+      secondary: '#000000',
+      disabled: '#000000',
+      hint: '#000000',
+    },
+    success: {
+      main: '#11bf1d',
     },
   },
 });
